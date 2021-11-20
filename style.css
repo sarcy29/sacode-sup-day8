@@ -1,0 +1,67 @@
+/* ELEMENT SELECTOR */
+body{
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* ID SELECTOR */
+#container {
+
+}
+
+/* CLASS SELECTOR */
+.container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+}
+.container-fluid{
+    width: 100%;
+}
+.header {
+    background-color: #932210;
+    padding: 20px;
+}
+
+.nav {
+   background-color: #ffa27b;
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: #fff;
+    padding: 20px;
+    transition: 0.5s; 
+}
+.nav a:hover{
+    background-color: #a3320b;
+    padding-left: 40px;
+    transition: 0.5s;
+}
+.nav a.active{
+    background-color: #c3522b;
+}
+
+.content{
+    background-color: #ffc29b;
+    padding: 20px;
+    width: 65%;
+    float: left;
+    margin-right: 20px;
+}
+
+.sidebar{
+    background-color:#f3825b;
+    padding: 20px;
+}
+
+.footer{
+    background-color: #ffa27b;
+    padding: 20px;
+}
